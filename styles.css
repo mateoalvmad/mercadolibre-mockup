@@ -7,7 +7,7 @@
   font-style: normal;
 }
 .debug {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 
 /*Header*/
@@ -109,11 +109,6 @@ button {
   height: 90px;
   margin: 40px 164px 50px;
 }
-.payment-flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .payment-section {
   display: grid;
   grid-template-columns: 84px auto;
@@ -171,7 +166,6 @@ button {
   padding: 21px 0px 57px;
   gap: 16px;
 }
-
 .card {
   display: grid;
   grid-template-rows: 224px 126px;
@@ -179,7 +173,6 @@ button {
   width: 224px;
   height: 350px;
 }
-
 .card-price {
   font-weight: 400;
   font-size: 23px;
@@ -203,6 +196,108 @@ button {
   flex-direction: row;
   align-items: center;
   gap: 4px;
+}
+
+/*Level 6 section*/
+.level6 {
+  display: flex;
+  flex-direction: column;
+  width: 1180px;
+  height: 340px;
+  border-radius: 6px;
+}
+
+.level6-header {
+  display: grid;
+  grid-template-columns: 1024px 3px 154px;
+  background: linear-gradient(90deg, #a90f90 55%, #0c1a51 100%);
+  width: 1180px;
+  height: 87px;
+  border-radius: 6px 6px 0px 0px;
+}
+.level6-header-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  padding: 24px 0px 24px 24px;
+}
+.level6-line {
+  width: 2px;
+  height: 37px;
+  margin: 24px 0px 26px 0px;
+  background: #fff;
+}
+.level6-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 23px 0px 6px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+  color: #fff;
+}
+.level6-price-line {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: line-through;
+}
+.level6-price-final {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+}
+.level6-benefits {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 172px;
+}
+.level6-benefits-title {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  height: 45px;
+  padding: 20px 0px 0px 24px;
+}
+.level6-benefits-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 127px;
+  padding: 29px 24px 25px;
+}
+.level6-benefits-section-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 377px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 0px 47px 0px 0px;
+  gap: 17px;
+}
+
+.level6-footer {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  background-color: #fff;
+  height: 81px;
+}
+.level6-button {
+  background-color: #3483fa;
+  width: 123px;
+  height: 48px;
+  border-radius: 6px;
+  margin: 16px 30px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 48px;
+  color: #fff;
 }
 
 /*Benefit section*/
