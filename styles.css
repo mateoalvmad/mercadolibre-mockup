@@ -1,14 +1,16 @@
+/*Prefixes*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, "sans-serif";
+  font-style: normal;
 }
-
 .debug {
   border: 1px solid red;
 }
 
+/*Header*/
 header {
   display: flex;
   flex-direction: column;
@@ -18,22 +20,6 @@ header {
   font-weight: 400;
   font-size: 13px;
 }
-main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  padding: 17px 166px;
-  height: 156px;
-  width: 100%;
-  font-weight: 400;
-  font-size: 12px;
-}
-
 input {
   height: 39px;
   width: 598px;
@@ -41,56 +27,246 @@ input {
   border: 0;
   border-radius: 2px;
 }
-
-hr {
-  border: 1px solid #e0e0e0;
-}
-
 .header-container {
   display: grid;
   grid-template-columns: repeat(18, 1fr);
   height: 50;
 }
-
 .logo {
   grid-column: 3/5;
   padding: 11px 0px 5px;
 }
-
 .barra {
   height: 39px;
   grid-column: 5/16;
   padding: 8px 0px 3px;
 }
-
 .header-container-menu {
   display: grid;
   grid-template-columns: repeat(18, 1fr);
   height: 50;
   padding: 19px 0px 11px;
 }
-
 .domicilio {
   grid-column: 3/5;
 }
-
 .menu {
   grid-column: 5/14;
   display: flex;
   color: #857f43;
   gap: 18px;
 }
-
 .cuenta {
   grid-column: 14/19;
 }
 
+/*Promotion banner*/
+.promotion {
+  background-image: url("/media/promo.png");
+  background-color: #d9412c;
+  width: 100;
+  height: 340px;
+}
+.promotion-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 318px 0px 16px;
+  gap: 4px;
+}
+button {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  border: solid #fff;
+  background-color: #9d412b;
+}
+.button-selected {
+  width: 9px;
+  height: 9px;
+  border: solid #9d412b;
+  background-color: #fff;
+}
+
+/*Main*/
+
+/*Sections*/
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebebeb;
+  padding: 0px 164px;
+}
+
+/*Payment section*/
+.payment {
+  display: grid;
+  grid-template-columns: 240px 333px 310px 1px 310px;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 1184px;
+  height: 90px;
+  margin: 40px 164px 50px;
+}
+.payment-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.payment-section {
+  display: grid;
+  grid-template-columns: 84px auto;
+  grid-template-rows: 45px 45px;
+  height: 90px;
+}
+.payment-section-icon {
+  grid-column: 1;
+  margin: 20px 0px 22px 20px;
+}
+.payment-section-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  grid-column: 2;
+  margin: 24px 0px 3px;
+}
+.payment-section-vermas {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #296af8;
+  grid-column: 2;
+}
+.payment-section-line {
+  width: 1px;
+  height: 90px;
+  background: #dbdbdb;
+}
+
+/*Sales section*/
+.sections-title {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+  color: #666666;
+}
+.sections-blue {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 9px 0px 2px;
+  color: #3483fa;
+}
+.card-title-blue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 21px 0px 57px;
+  gap: 16px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 224px 126px;
+  background-color: #fff;
+  width: 224px;
+  height: 350px;
+}
+
+.card-price {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 24px;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 19px 38px 58px 16px;
+  gap: 11px;
+}
+.card-discount {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #00a650;
+}
+.card-ship-full {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+/*Benefit section*/
+.benefit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 300px;
+}
+.benefit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.benefit-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #4b4b4b;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px 0px 0px;
+}
+.benefit-description {
+  font-size: 15px;
+  line-height: 18px;
+  color: #818181;
+  font-weight: 400;
+  text-align: center;
+  padding: 2px 48px 9px;
+}
+.benefit-link {
+  font-size: 13px;
+  line-height: 15px;
+  color: #296af8;
+  font-weight: 400;
+  text-align: center;
+}
+.line {
+  width: 1px;
+  height: 65px;
+  margin: 110px 0px 160px 0px;
+  background: #dbdbdb;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 17px 166px;
+  height: 156px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 12px;
+}
 .footer-options {
   display: flex;
   flex-direction: row;
   gap: 21px;
 }
-
 .footer-rights {
   display: flex;
   flex-direction: column;
@@ -100,92 +276,12 @@ hr {
   gap: 2px;
   padding: 7px 0px 14px;
 }
-
 .super-logo {
   gap: 20px;
   padding: 18px;
 }
 
-.promotion {
-  background-image: url("/media/promo.png");
-  background-color: #d9412c;
-  width: 100;
-  height: 340px;
+/*Others*/
+hr {
+  border: 1px solid #e0e0e0;
 }
-
-.promotion-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 318px 0px 16px;
-  gap: 4px;
-}
-
-button {
-  width: 7px;
-  height: 7px;
-  border-radius: 100%;
-  border: solid #fff;
-  background-color: #9d412b;
-}
-
-.button-selected {
-  width: 9px;
-  height: 9px;
-  border: solid #9d412b;
-  background-color: #fff;
-}
-
-.benefit {
-  display: flex;
-  flex-direction: row;
-  height: 300px;
-}
-
-.benefit-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  
-}
-
-.benefit-icon {
-  /*padding: 75px 0px 20px;*/
-}
-
-.benefit-title {
-  font-size: 20px;
-  line-height: 28px;
-  color: #4b4b4b;
-  font-weight: 500;
-  text-align: center;
-  padding: 20px 0px 0px;
-}
-
-.benefit-description {
-  font-size: 15px;
-  line-height: 18px;
-  color: #818181;
-  font-weight: 400;
-  text-align: center;
-  padding: 2px 48px 9px;
-}
-
-.benefit-link {
-  font-size: 13px;
-  line-height: 15px;
-  color: #296af8;
-  font-weight: 400;
-  text-align: center;
-}
-
-.line {
-  width: 1px;
-  height: 65px;
-  margin: 110px 0px 160px 0px;
-  background: #DBDBDB;
-}
-
-/* pseudo */
