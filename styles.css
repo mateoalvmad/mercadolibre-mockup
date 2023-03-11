@@ -111,6 +111,16 @@ button {
   padding: 9px 0px 2px;
   color: #3483fa;
 }
+.section-button {
+  background-color: #3483fa;
+  width: 123px;
+  height: 48px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 48px;
+  color: #fff;
+}
 
 /*Payment section*/
 .payment {
@@ -286,15 +296,7 @@ button {
   height: 81px;
 }
 .level6-button {
-  background-color: #3483fa;
-  width: 123px;
-  height: 48px;
-  border-radius: 6px;
   margin: 16px 30px;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 48px;
-  color: #fff;
 }
 
 /*Mercado puntos section*/
@@ -323,6 +325,7 @@ button {
 }
 .points-image {
   position: relative;
+  border-radius: 6px;
   left: 0px;
   top: 0px;
 }
@@ -360,6 +363,50 @@ button {
   font-size: 18px;
   line-height: 20px;
 }
+
+/*Discover section*/
+.discover {
+  width: 1184px;
+}
+.discover-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 19px 0px 0px;
+  gap: 15px;
+}
+.discover-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  width: 584px;
+  height: 250px;
+  border-radius: 4px;
+}
+.discover-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 57px 34px 57px 32px;
+  color: #4b4b4b;
+}
+.discover-card-info-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 31px;
+  margin: 11px 0px 14px;
+}
+.discover-card-info-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.discover-card-image {
+  border-radius: 4px;
+}
+
 
 /*Benefit section*/
 .benefit {
