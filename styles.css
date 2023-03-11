@@ -98,6 +98,19 @@ button {
   background-color: #ebebeb;
   padding: 0px 164px;
 }
+.sections-title {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+  color: #666666;
+}
+.sections-blue {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 9px 0px 2px;
+  color: #3483fa;
+}
 
 /*Payment section*/
 .payment {
@@ -140,20 +153,7 @@ button {
 }
 
 /*Sales section*/
-.sections-title {
-  font-weight: 300;
-  font-size: 25px;
-  line-height: 31px;
-  color: #666666;
-}
-.sections-blue {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 19px;
-  padding: 9px 0px 2px;
-  color: #3483fa;
-}
-.card-title-blue {
+.sales-title {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -202,11 +202,11 @@ button {
 .level6 {
   display: flex;
   flex-direction: column;
+  background-color: #fff;
   width: 1180px;
   height: 340px;
   border-radius: 6px;
 }
-
 .level6-header {
   display: grid;
   grid-template-columns: 1024px 3px 154px;
@@ -250,7 +250,6 @@ button {
   line-height: 24px;
 }
 .level6-benefits {
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   height: 172px;
@@ -280,12 +279,10 @@ button {
   padding: 0px 47px 0px 0px;
   gap: 17px;
 }
-
 .level6-footer {
   display: flex;
   justify-content: end;
   align-items: flex-end;
-  background-color: #fff;
   height: 81px;
 }
 .level6-button {
@@ -298,6 +295,70 @@ button {
   font-size: 15px;
   line-height: 48px;
   color: #fff;
+}
+
+/*Mercado puntos section*/
+.points {
+  width: 1180px;
+  padding: 80px 0px 93px;
+}
+.points-title {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 25px;
+}
+.points-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 21px 0px 0px;
+  gap: 16px;
+}
+.points-card {
+  position: relative;
+  width: 384px;
+  height: 250px;
+  border-radius: 6px;
+}
+.points-image {
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.points-info {
+  position: relative;
+  top: -130px;
+  display: grid;
+  grid-template-columns: 112px auto;
+  height: 124px;
+}
+.points-info-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: #fff;
+  margin: 33px 0px 22px;
+  gap: 5px;
+}
+.points-info-logo {
+  margin: 28px 16px 16px 16px;
+}
+.points-info-description-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+}
+.points-info-description-gift {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+}
+.points-info-description-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 /*Benefit section*/
