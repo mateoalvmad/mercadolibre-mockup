@@ -100,8 +100,8 @@ button {
 }
 .sections-title {
   font-weight: 300;
-  font-size: 25px;
-  line-height: 31px;
+  font-size: 26px;
+  line-height: 26px;
   color: #666666;
 }
 .sections-blue {
@@ -407,6 +407,169 @@ button {
   border-radius: 4px;
 }
 
+/*Shops section*/
+.shops {
+  margin: 55px 0px 72px;
+}
+.shops-title {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.shops-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1184px;
+  margin: 21px 0px 0px;
+  gap: 16px;
+}
+.shops-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 284px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+}
+.shops-card-banner {
+  border-radius: 4px 4px 0px 0px;
+}
+.shops-card-banner-nikon {
+  height: 95px;
+  background-color: #d5d5d5;
+  border-radius: 4px 4px 0px 0px;
+}
+.shops-card-logo {
+  position: absolute;
+  top: 55px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.shops-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 245px;
+  width: 284px;
+  padding: 56px 30px 20px;
+  border-radius: 0px 0px 4px 4px;
+  color: #4b4b4b;
+  background-color: white;
+}
+.shops-card-info-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  columns: #333333;
+}
+.shops-card-info-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 30px 22px 32px;
+}
+.shops-card-info-image {
+  border-radius: 8px;
+  border: 1px solid #eeeeee;
+}
+.shops-card-info-text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #999999;
+}
+
+/*Colection section*/
+.colecction-title {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+.colection-choice {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  color: #666666;
+}
+.colection-cards {
+  display: flex;
+  flex-direction: row;
+  margin: 24px 0px 0px;
+  gap: 16px;
+}
+.colection-card-big {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #4b4b4b;
+  border-radius: 4px;
+}
+.colection-card-image {
+  border-radius: 4px 4px 0px 0px;
+}
+.colection-card-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  padding: 0px 25px 24px;
+}
+.colection-card-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  padding: 20px 25px 4px;
+}
+.colection-cards-small {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/*Categories section*/
+.categories {
+  margin: 75px 0px 18px;
+}
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  margin: 19px 0px 0px;
+  width: 1190px;
+  height: 341px;
+  background-color: white;
+}
+.categories-cards-rows {
+  display: flex;
+  flex-direction: row;
+  width: 1190px;
+  height: 341px;
+  background-color: white;
+}
+.categories-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  width: 170px;
+  height: 170px;
+  padding: 0px 24px;
+}
+.categories-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
 
 /*Benefit section*/
 .benefit {
